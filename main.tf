@@ -14,5 +14,3 @@ resource "azurerm_resource_group" "demorg" {
   name     = "${var.rg_name}-tf-cloud-demo-rg"
   location = var.location
 }
-
-// test again
