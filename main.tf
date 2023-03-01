@@ -15,3 +15,8 @@ resource "azurerm_resource_group" "demorg" {
   location = var.location
 }
 // to test 3rd workspace, changed again
+
+resource "azurerm_resource_group" "demorg2" {
+  name     = "${var.rg_name}-tf-cloud-demo-rg-2"
+  location = var.location
+}
